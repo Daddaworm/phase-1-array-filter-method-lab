@@ -34,8 +34,8 @@ function fuzzyMatch(drivernames, letters){
 //  provided `string` argument.
 
 function matchName(drivernames, name){
-    const filteredArray = drivernames.filter(function(list){  //{name: 'Bobby',hometown: 'Pittsburgh'},{name: 'Bobby',hometown: 'Tampa Bay'} 
-        return list.name === name;
+    const filteredArray = drivernames.filter(function(person){  //{name: 'Bobby',hometown: 'Pittsburgh'},{name: 'Bobby',hometown: 'Tampa Bay'} 
+        return person.name === name;
     })
         return filteredArray;
 }
